@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  color: #fff;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #ececec;
+}
+
+.App {
+  display: block;
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem 0.5rem; */
+}
+h1 {
+  font-size: xx-large;
+  font-family: nunito;
+  font-weight: bold;
+}
+label {
+  font-size: medium;
+  font-family: nunito;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='date'],
+input[type='checkbox'],
+select,
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 10px 0px 10px 0px;
+}
+
+nav {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  padding: 1rem;
+}
+h1,
+h2 {
+  color: #003566;
+  font-weight: 900;
+  font-family: 'nunito';
+  cursor: 'pointer';
+}
+h3 {
+  color: #003566;
+  font-weight: bolder;
+  font-family: 'nunito';
+}
+h6 {
+  color: #003566;
+  font-weight: bolder;
+  font-family: 'nunito';
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.name-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.name-p {
+  color: #003566;
+  font-weight: bolder;
+  font-family: 'nunito';
+  margin: 5px;
+}
+.name-letter {
+  background-color: #003566;
+  color: #fff;
+  font-weight: bolder;
+  padding: 8px 15px;
+  border-radius: 100%;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.main-btn {
+  background-color: #ffc300;
+  color: #003566;
+  font-weight: bold;
+  font-family: 'nunito';
+  border: 0px;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.main-btn-signin {
+  background-color: #fafafa;
+  color: #003566;
+  font-weight: bold;
+  font-family: 'nunito';
+  border: 4px solid #ffc300;
+  border-radius: 10px;
+  padding: 0.35rem 1rem;
+  cursor: pointer;
+}
+
+.menu-div {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  background-color: #fafafa;
+  right: 0px;
+  top: 10vh;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.menu-hide {
+  display: none;
+}
+
+.logout {
+  font-weight: bold;
+  font-family: 'nunito';
+  color: #003566;
+  cursor: pointer;
+  font-size: large;
+}
+
+.icon {
+  color: #003566;
+  cursor: pointer;
+  font-size: large;
+  margin: 0px 10px;
+}
